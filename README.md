@@ -6,7 +6,7 @@ The NLR-Parser refines the output of MAST and reliably annotates disease resista
 
 
 
-## Prerequisistes
+## Prerequisites
 ### MEME suite
 The MEME suite is available at [http://meme.nbcr.net/meme/](http://meme.nbcr.net/meme/)
 
@@ -69,6 +69,7 @@ One column of the NLR-Parser output is the aminoacid sequence of the NB-ARC doma
 This is the threshold of the p-values of the individual motifs. Motifs with a p-value above this threshold are ignored by the NLR-Parser. The default is **1E-5**. 
 
 
+
 ## Tips
 * MAST has an e-value threshold. Sequences with an evalue above that are not displayed. This evalue is dependent on the number of input sequences. If you run MAST on a really large file, add the parameter `-ev 10000000` to your call. 
 * If you want to annotate large files like genomes, it makes sense to chop them in overlapping fragments. 
@@ -77,4 +78,4 @@ This is the threshold of the p-values of the individual motifs. Motifs with a p-
 
 ## Citation
 * For using the NLR motifs, please cite [Jupe et al. (2012)](http://www.biomedcentral.com/1471-2164/13/75)
-* A publication for the NLR-parser is in preparateion. Until then, please use [http://github.com/steuernb/NLR-Parser](http://github.com/steuernb/NLR-Parser) or contact [us](mailto:burkhard.steuernagel@jic.ac.uk) and get us on board.
+* A publication for the NLR-parser is in preparation. Until then, please use [http://github.com/steuernb/NLR-Parser](http://github.com/steuernb/NLR-Parser) or contact [us](mailto:burkhard.steuernagel@jic.ac.uk) and get us on board.

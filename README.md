@@ -33,7 +33,7 @@ For this you can use the TranslateSequence.jar, which is part of this software.
 
 ## Installation
 
-Just download this file. Run it from the command line.
+Just download NLR-Parser.jar from the latest release. Run it from the command line.
 
 `java -jar NLR-Parser.jar -i <mast.xml> -o <output.mast.txt> [-s <splitpattern>] [-p <pvalue>] [-b <blastfile>] [-gh] [-a <sequence>]` 
 
@@ -78,4 +78,7 @@ This is the threshold of the p-values of the individual motifs. Motifs with a p-
 
 ## Citation
 * For using the NLR motifs, please cite [Jupe et al. (2012)](http://www.biomedcentral.com/1471-2164/13/75)
-* A publication for the NLR-parser is in preparation. Until then, please use [http://github.com/steuernb/NLR-Parser](http://github.com/steuernb/NLR-Parser) or contact [us](mailto:burkhard.steuernagel@jic.ac.uk) and get us on board.
+* For NLR-Parser, please cite [Steuernagel et al. (2015)](http://www.ncbi.nlm.nih.gov/pubmed/25586514). 
+
+## Contact
+If there are any issues with the tool or if you would like to collaborate with us, please don't hesitate to contact [us](mailto:burkhard.steuernagel@jic.ac.uk).

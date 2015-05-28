@@ -33,9 +33,12 @@ For this you can use the TranslateSequence.jar, which is part of this software.
 
 ## Installation
 
-Just download NLR-Parser.jar from the latest release. Run it from the command line.
+Just download NLR-Parser.jar from the [latest release](https://github.com/steuernb/NLR-Parser/releases). Run it from the command line.
 
 `java -jar NLR-Parser.jar -i <mast.xml> -o <output.mast.txt> [-s <splitpattern>] [-p <pvalue>] [-b <blastfile>] [-gh] [-a <sequence>]` 
+
+If you want to build it from source you will need the [Apache Commons CLI](https://commons.apache.org/proper/commons-cli/)
+
 
 ## Input parameters
  

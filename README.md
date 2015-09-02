@@ -16,7 +16,7 @@ Don't worry about setting up the Apache webserver. You just need MAST, so the qu
 Make sure you have the Java Runtime Environments 1.6 or higher. Download from [http://java.com](http://java.com)
 
 ### NLR motif definitions
-Download the meme.xml that contains the definitions from [here](). 
+Download the meme.xml that contains the definitions from [here](https://github.com/steuernb/NLR-Parser/blob/master/meme.xml). 
 The motifs were published by [Jupe et al. (2012)](http://www.biomedcentral.com/1471-2164/13/75). The downloaded meme.xml is an input argument for MAST.
 
 ### 6Frame translator

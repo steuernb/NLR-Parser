@@ -7,8 +7,10 @@ The NLR-Parser refines the output of MAST and reliably annotates disease resista
 
 
 ## Prerequisites
-### MEME suite
+### MEME suite version 4.9.1
 The MEME suite is available at [http://meme.nbcr.net/meme/](http://meme.nbcr.net/meme/)
+
+Please note that the most actual version of meme is not compatible with NLR Parser. Use meme 4.9.1.
 
 Don't worry about setting up the Apache webserver. You just need MAST, so the quick install is sufficient. 
 
